@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="671.9999px"
+     height="671.9999px"
+     version="1.0"><g transform="translate(0, 671.9999)  scale(1, -1)">
+  <g id="gridSVG"  fill="none" stroke="rgb(0,0,0)" stroke-dasharray="none" stroke-width="1.33333333333333px" font-size="16px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0">
+    <g id="GRID.gTree.3151"  >
+      <g id="layout.1"  >
+        <g id="axis-l-3-3.1"  >
+          <g id="axis-l-3-3"  >
+            <g id="GRID.VP.119.1"  >
+              <g id="axis.frame.3142"  >
+                <g id="GRID.VP.120.1"  >
+                  <g id="GRID.cellGrob.3143"  >
+                    <g id="axis.ticks.segments.3140"  >
+                    <polyline id="axis.ticks.segments.3140.1" points="35.98,74.02 41.65,74.02"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                    <polyline id="axis.ticks.segments.3140.2" points="35.98,158.04 41.65,158.04"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                    <polyline id="axis.ticks.segments.3140.3" points="35.98,242.06 41.65,242.06"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                    <polyline id="axis.ticks.segments.3140.4" points="35.98,326.09 41.65,326.09"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                    <polyline id="axis.ticks.segments.3140.5" points="35.98,410.11 41.65,410.11"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                    <polyline id="axis.ticks.segments.3140.6" points="35.98,494.13 41.65,494.13"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                    <polyline id="axis.ticks.segments.3140.7" points="35.98,578.16 41.65,578.16"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="layout.2"  >
+        <g id="spacer-4-3.1"  >
+        </g>
+      </g>
+      <g id="layout.3"  >
+      <defs>
+        <clipPath id="panel-3-4.1.clipPath">
+          <rect x="41.6488188976378" y="41.6488188976377" width="611.151181102362" height="586.551181102362" style="fill: none; stroke: none;" />
+        </clipPath>
+      </defs>
+      <g id="panel-3-4.1"  clip-path="url(#panel-3-4.1.clipPath)" >
+        <g id="panel-3-4"  >
+          <g id="grill.gTree.3127"  >
+            <g id="panel.background.rect.3118"  >
+            <rect id="panel.background.rect.3118.1" x="41.65" y="41.65" width="611.15" height="586.55"  stroke-width="1.88976377833716px" stroke="none" fill="rgb(229,229,229)" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+            </g>
+            <g id="panel.grid.minor.y.polyline.3120"  >
+            <polyline id="panel.grid.minor.y.polyline.3120.1" points="41.65,116.03 652.8,116.03"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.y.polyline.3120.2" points="41.65,200.05 652.8,200.05"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.y.polyline.3120.3" points="41.65,284.08 652.8,284.08"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.y.polyline.3120.4" points="41.65,368.1 652.8,368.1"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.y.polyline.3120.5" points="41.65,452.12 652.8,452.12"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.y.polyline.3120.6" points="41.65,536.15 652.8,536.15"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.y.polyline.3120.7" points="41.65,620.17 652.8,620.17"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            </g>
+            <g id="panel.grid.minor.x.polyline.3122"  >
+            <polyline id="panel.grid.minor.x.polyline.3122.1" points="60.29,41.65 60.29,628.2"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.x.polyline.3122.2" points="180.74,41.65 180.74,628.2"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.x.polyline.3122.3" points="301.18,41.65 301.18,628.2"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.x.polyline.3122.4" points="421.63,41.65 421.63,628.2"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.minor.x.polyline.3122.5" points="542.07,41.65 542.07,628.2"  stroke-width="0.944881889168578px" stroke="rgb(242,242,242)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            </g>
+            <g id="panel.grid.major.y.polyline.3124"  >
+            <polyline id="panel.grid.major.y.polyline.3124.1" points="41.65,74.02 652.8,74.02"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.y.polyline.3124.2" points="41.65,158.04 652.8,158.04"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.y.polyline.3124.3" points="41.65,242.06 652.8,242.06"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.y.polyline.3124.4" points="41.65,326.09 652.8,326.09"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.y.polyline.3124.5" points="41.65,410.11 652.8,410.11"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.y.polyline.3124.6" points="41.65,494.13 652.8,494.13"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.y.polyline.3124.7" points="41.65,578.16 652.8,578.16"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            </g>
+            <g id="panel.grid.major.x.polyline.3126"  >
+            <polyline id="panel.grid.major.x.polyline.3126.1" points="120.52,41.65 120.52,628.2"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.x.polyline.3126.2" points="240.96,41.65 240.96,628.2"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.x.polyline.3126.3" points="361.4,41.65 361.4,628.2"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.x.polyline.3126.4" points="481.85,41.65 481.85,628.2"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            <polyline id="panel.grid.major.x.polyline.3126.5" points="602.29,41.65 602.29,628.2"  stroke-width="1.88976377833716px" stroke="rgb(255,255,255)" stroke-dasharray="none" stroke-opacity="1" fill="none" />
+            </g>
+          </g>
+          <g id="polygonmetas.gTree.3111"  >
+            <g id="geom_polygonmeta.gTree.3034"  >
+              <g id="GRID.polygon.3033"  >
+              <polygon id="GRID.polygon.3033.1" points="184.89,81.92 184.56,81.38 184.31,81.05 184.56,80.55 172.06,73.7 184.89,80.49 183.77,74.12 186.69,70.31 185.85,78.98 184.98,80.45 192.81,81.83 188.86,84.31 203.77,130.68 184.89,80.54" country="Iran" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3037"  >
+              <g id="GRID.polygon.3036"  >
+              <polygon id="GRID.polygon.3036.1" points="123.48,96.91 123.45,95.7 123.38,95.71 119,96.37 110.03,88.49 123.48,95.61 123.12,93.58 123.6,94.97 124.25,94.4 123.92,95.38 132,97.05 126.67,98.68 145.18,153.29 123.48,96.95" country="Algeria" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3040"  >
+              <g id="GRID.polygon.3039"  >
+              <polygon id="GRID.polygon.3039.1" points="119.62,130.62 119.46,130.22 119.39,130.04 116.4,130.36 94.84,116.7 119.62,129.81 118.92,125.88 119.99,127.7 120.06,129.12 119.65,129.8 125.51,130.81 122.77,132.85 137.21,176.59 119.62,129.83" country="Turkey" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3043"  >
+              <g id="GRID.polygon.3042"  >
+              <polygon id="GRID.polygon.3042.1" points="220.19,150.8 219.9,150.14 218.46,151.04 209.16,151.25 219.01,148.75 220.19,149.37 219.72,146.7 222.32,137.3 220.29,149.22 220.26,149.34 227.97,150.7 224.61,153.63 240.28,202.77 220.19,149.46" country="Egypt" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3046"  >
+              <g id="GRID.polygon.3045"  >
+              <polygon id="GRID.polygon.3045.1" points="610.61,150.35 610.58,149.96 610.61,149.89 609.37,150.1 603.81,146.29 610.61,149.89 610.52,149.37 625.02,68.31 610.92,149.4 610.68,149.85 613.72,150.42 613.47,152.65 613.84,158.48 610.61,150.04" country="Bangladesh" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3049"  >
+              <g id="GRID.polygon.3048"  >
+              <polygon id="GRID.polygon.3048.1" points="244.85,157.43 244.62,156.88 243.17,157.89 243.86,156.43 232.93,149.96 244.81,156.21 242.23,141.4 247.47,141.44 245.89,154.64 245.03,156.17 254.68,157.93 249.35,160.6 257.45,189.75 244.85,156.84" country="Saudi Arabia" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3052"  >
+              <g id="GRID.polygon.3051"  >
+              <polygon id="GRID.polygon.3051.1" points="366.62,171.85 366.6,170.42 366.55,170.44 363.68,170.87 359.22,166.46 360.26,160.37 365.76,165.53 372.75,135.64 367.19,169.48 366.65,170.36 370.43,171.02 372.43,175.98 376.26,196.01 366.62,170.84" country="China" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3055"  >
+              <g id="GRID.polygon.3054"  >
+              <polygon id="GRID.polygon.3054.1" points="350.04,186.02 349.91,182.52 349.4,182.8 349.17,182.33 337.4,175.5 346.06,175.93 348.83,175.35 355.77,149.75 350.09,182.09 350.4,181.99 357.29,183.41 355.08,187.04 357.76,202.71 350.04,182.25" country="Japan" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3058"  >
+              <g id="GRID.polygon.3057"  >
+              <polygon id="GRID.polygon.3057.1" points="191.64,206.69 191.55,194.02 189.33,196 187.75,194.42 181.98,188.65 190.65,192.2 189.96,184.24 192.17,190.79 191.84,193.46 191.75,193.71 202.65,195.63 196.27,198.22 205.08,229.47 191.64,194.39" country="Argentina" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3061"  >
+              <g id="GRID.polygon.3060"  >
+              <polygon id="GRID.polygon.3060.1" points="112.74,203.3 112.43,202.69 112.73,201.88 110.77,202.21 69.43,178.96 112.74,201.88 112.62,201.23 113.41,198.09 112.98,201.5 112.75,201.87 117.65,202.71 115.28,204.33 122.98,229.11 112.74,201.89" country="Pakistan" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3064"  >
+              <g id="GRID.polygon.3063"  >
+              <polygon id="GRID.polygon.3063.1" points="172.58,209.32 172.48,205.06 172.02,205.32 168.51,205.47 153.04,194.44 170.09,200.86 171.02,195.95 173.17,201.42 172.67,204.64 172.8,204.67 182.46,206.46 176.52,208.57 184.77,237.2 172.58,205.45" country="Chile" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3067"  >
+              <g id="GRID.polygon.3066"  >
+              <polygon id="GRID.polygon.3066.1" points="370.87,211.05 370.83,207.33 370.44,207.64 367.99,207.71 361.96,202.51 365.48,198.73 369.74,200.84 376.79,173.74 370.89,207.19 371.03,207.14 379.31,208.65 376.4,212.55 377.8,225.64 370.87,207.28" country="Korea" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3070"  >
+              <g id="GRID.polygon.3069"  >
+              <polygon id="GRID.polygon.3069.1" points="440.58,210.28 440.52,208.38 440.49,208.32 440.02,208.32 439.81,207.81 439.16,205.98 437.67,191.72 447.79,167.45 440.73,208 441.61,207.68 456.97,211 447.17,214.57 445.26,220.65 440.58,208.65" country="Malaysia" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3073"  >
+              <g id="GRID.polygon.3072"  >
+              <polygon id="GRID.polygon.3072.1" points="150.9,213.6 150.51,210.49 149.87,210.46 148.91,209.81 123.75,195.11 148.2,205.23 149.77,203.1 151.16,208 151.07,209.2 151.19,209.32 160.18,211.05 155.04,213.47 161.43,237.47 150.9,209.75" country="Russia" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3076"  >
+              <g id="GRID.polygon.3075"  >
+              <polygon id="GRID.polygon.3075.1" points="174.87,220.08 174.47,217.69 171.89,219.5 170.77,217.32 155.34,206.28 170.27,209.37 173.81,210.6 175.32,214.12 175.15,216.18 175.04,216.53 182.71,217.95 179.49,221.07 186.14,246.57 174.87,216.82" country="European Union-27" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3079"  >
+              <g id="GRID.polygon.3078"  >
+              <polygon id="GRID.polygon.3078.1" points="297.69,218.66 297.19,219.44 297.69,218.13 291.28,219.22 274.42,205.82 297.62,218.03 297.54,217.33 302.88,188.74 297.79,217.97 297.72,218.11 304.02,219.21 300.87,221.2 306.11,240.54 297.69,218.14" country="India" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3082"  >
+              <g id="GRID.polygon.3081"  >
+              <polygon id="GRID.polygon.3081.1" points="199.57,256.64 199.23,249.31 197.57,250.31 197.15,248.8 178.91,237.45 196.64,243.77 197.88,238.79 200.33,244.09 200.9,246.3 199.99,248.16 211.12,250.34 203.5,252.16 207.1,268.4 199.57,248.89" country="Australia" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3085"  >
+              <g id="GRID.polygon.3084"  >
+              <polygon id="GRID.polygon.3084.1" points="153.24,267.69 153.2,254.54 153.02,254.64 147.19,255.45 125.49,239.74 152.19,252.78 152.27,248.95 153.57,252.55 153.37,254.22 153.25,254.42 160.39,255.63 155.64,256.74 162.82,279.88 153.24,254.66" country="Uruguay" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3088"  >
+              <g id="GRID.polygon.3087"  >
+              <polygon id="GRID.polygon.3087.1" points="138.13,263.91 137.98,262.66 137.51,262.86 130.53,263.55 106.4,245.48 136.81,260.2 137.29,257.49 138.29,261.34 138.17,262.2 138.23,262.21 146.17,263.63 141.79,265.79 147.87,288.15 138.13,262.32" country="Ukraine" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3091"  >
+              <g id="GRID.polygon.3090"  >
+              <polygon id="GRID.polygon.3090.1" points="206.82,282.39 206.6,274.83 204.19,276.77 200.37,275.33 190.2,265.44 203.72,269.36 204.48,261.02 207.48,270.49 206.87,274.15 207.09,274.09 213.76,275.41 213.34,280.52 214.92,295.79 206.82,274.27" country="United States" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3094"  >
+              <g id="GRID.polygon.3093"  >
+              <polygon id="GRID.polygon.3093.1" points="191.84,287.5 191.13,283.61 190.71,282.8 185.85,282.73 170.99,270.68 189.75,278.41 190.31,273.04 192.27,279.29 193.64,278.88 193.44,280.87 203,283.6 196.31,286.01 199.15,301.14 191.84,281.96" country="New Zealand" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3097"  >
+              <g id="GRID.polygon.3096"  >
+              <polygon id="GRID.polygon.3096.1" points="271.77,302.4 271.73,294.01 271.12,294.52 264.84,295.07 258.49,286.86 270.09,291.24 269.47,280.87 274.13,280.54 271.83,293.8 271.88,293.84 287.56,296.57 275.5,297.48 277.47,309.04 271.77,294.8" country="Brazil" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3100"  >
+              <g id="GRID.polygon.3099"  >
+              <polygon id="GRID.polygon.3099.1" points="203.7,349.24 203.44,344.12 201.75,345.3 188.94,345.93 187.19,334.69 201.37,339.76 202.06,334.15 204.25,340.32 203.85,343.19 204.01,343.26 212.32,344.89 207.96,347.53 211.59,364.4 203.7,343.54" country="Canada" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3103"  >
+              <g id="GRID.polygon.3102"  >
+              <polygon id="GRID.polygon.3102.1" points="230.93,434.38 230.89,430.57 230.75,430.64 206.29,434.65 217.28,423.26 230,429.02 229.6,422.95 232.02,424.3 231.34,429.82 230.98,430.45 240.91,432.17 234.52,433.94 237.68,448.43 230.93,430.59" country="Republic of South Africa" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3106"  >
+              <g id="GRID.polygon.3105"  >
+              <polygon id="GRID.polygon.3105.1" points="289.65,540.9 289.63,538.93 289.53,538.99 253.31,545.03 276.72,532.03 289.33,538.37 289.4,537.46 292.39,523.35 290.26,537.91 289.7,538.85 294.67,539.73 293.02,542.12 293.54,549.2 289.65,539.11" country="Sub Saharan Africa" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+            <g id="geom_polygonmeta.gTree.3109"  >
+              <g id="GRID.polygon.3108"  >
+              <polygon id="GRID.polygon.3108.1" points="247.14,595.12 247.09,591.98 246.77,592.21 207.86,598.51 238.56,587.31 245.67,589.55 245.84,584.47 247.61,589.18 247.23,591.71 247.43,591.7 256.28,593.4 250.88,595.46 250.78,601.54 247.14,592.41" country="Mexico" stroke="none" fill="rgb(255,0,0)" stroke-width="1.88976377833716px" stroke-dasharray="none" stroke-opacity="0" fill-opacity="1" />
+              </g>
+            </g>
+          </g>
+          <g id="geom_point.points.3113"  >
+          <circle id="geom_point.points.3113.1" cx="123.48" cy="95.61" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.2" cx="191.64" cy="193.76" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.3" cx="199.57" cy="248.38" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.4" cx="610.61" cy="149.89" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.5" cx="271.77" cy="293.89" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.6" cx="203.7" cy="343.43" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.7" cx="172.58" cy="204.78" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.8" cx="366.62" cy="170.37" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.9" cx="220.19" cy="149.38" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.10" cx="174.87" cy="216.62" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.11" cx="297.69" cy="218.13" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.12" cx="184.89" cy="80.49" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.13" cx="350.04" cy="182.18" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.14" cx="370.87" cy="207.22" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.15" cx="440.58" cy="208.22" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.16" cx="247.14" cy="591.86" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.17" cx="191.84" cy="281.71" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.18" cx="112.74" cy="201.88" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.19" cx="230.93" cy="430.47" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.20" cx="150.9" cy="209.47" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.21" cx="244.85" cy="156.26" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.22" cx="289.65" cy="538.87" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.23" cx="119.62" cy="129.82" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.24" cx="138.13" cy="262.27" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.25" cx="206.82" cy="274.24" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          <circle id="geom_point.points.3113.26" cx="153.24" cy="254.42" r="1.89"  stroke="none" fill="rgb(0,0,0)" font-size="3.77952755667431px" stroke-opacity="0" fill-opacity="1" />
+          </g>
+          <g id="GRID.text.3114"  >
+          <g id="GRID.text.3114.1"  stroke-width=".1" transform="translate(123.48, 95.61) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Algeria</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.2"  stroke-width=".1" transform="translate(191.64, 193.76) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Argentina</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.3"  stroke-width=".1" transform="translate(199.57, 248.38) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Australia</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.4"  stroke-width=".1" transform="translate(610.61, 149.89) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Bangladesh</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.5"  stroke-width=".1" transform="translate(271.77, 293.89) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Brazil</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.6"  stroke-width=".1" transform="translate(203.7, 343.43) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Canada</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.7"  stroke-width=".1" transform="translate(172.58, 204.78) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Chile</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.8"  stroke-width=".1" transform="translate(366.62, 170.37) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">China</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.9"  stroke-width=".1" transform="translate(220.19, 149.38) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Egypt</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.10"  stroke-width=".1" transform="translate(174.87, 216.62) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">European Union-27</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.11"  stroke-width=".1" transform="translate(297.69, 218.13) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">India</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.12"  stroke-width=".1" transform="translate(184.89, 80.49) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Iran</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.13"  stroke-width=".1" transform="translate(350.04, 182.18) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Japan</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.14"  stroke-width=".1" transform="translate(370.87, 207.22) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Korea</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.15"  stroke-width=".1" transform="translate(440.58, 208.22) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Malaysia</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.16"  stroke-width=".1" transform="translate(247.14, 591.86) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Mexico</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.17"  stroke-width=".1" transform="translate(191.84, 281.71) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">New Zealand</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.18"  stroke-width=".1" transform="translate(112.74, 201.88) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Pakistan</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.19"  stroke-width=".1" transform="translate(230.93, 430.47) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Republic of South Africa</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.20"  stroke-width=".1" transform="translate(150.9, 209.47) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Russia</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.21"  stroke-width=".1" transform="translate(244.85, 156.26) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Saudi Arabia</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.22"  stroke-width=".1" transform="translate(289.65, 538.87) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Sub Saharan Africa</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.23"  stroke-width=".1" transform="translate(119.62, 129.82) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Turkey</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.24"  stroke-width=".1" transform="translate(138.13, 262.27) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Ukraine</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.25"  stroke-width=".1" transform="translate(206.82, 274.24) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">United States</tspan></text>
+</g>
+</g>
+          <g id="GRID.text.3114.26"  stroke-width=".1" transform="translate(153.24, 254.42) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="start" stroke="rgb(0,0,0)" font-size="9.44881889168579px" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="4" x="0">Uruguay</tspan></text>
+</g>
+</g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="layout.4"  >
+      <g id="axis-b-4-4.1"  >
+        <g id="axis-b-4-4"  >
+          <g id="GRID.VP.117.1"  >
+            <g id="axis.frame.3134"  >
+              <g id="GRID.VP.118.1"  >
+                <g id="GRID.cellGrob.3135"  >
+                  <g id="axis.ticks.segments.3132"  >
+                  <polyline id="axis.ticks.segments.3132.1" points="120.52,35.98 120.52,41.65"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                  <polyline id="axis.ticks.segments.3132.2" points="240.96,35.98 240.96,41.65"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                  <polyline id="axis.ticks.segments.3132.3" points="361.4,35.98 361.4,41.65"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                  <polyline id="axis.ticks.segments.3132.4" points="481.85,35.98 481.85,41.65"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                  <polyline id="axis.ticks.segments.3132.5" points="602.29,35.98 602.29,41.65"  stroke="rgb(127,127,127)" stroke-dasharray="none" stroke-width="1.88976377833716px" stroke-opacity="1" fill="none" />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="layout.5"  >
+    <defs>
+      <clipPath id="title-2-4.1.clipPath">
+        <rect x="41.6488188976378" y="628.2" width="611.151181102362" height="24.6" style="fill: none; stroke: none;" />
+      </clipPath>
+    </defs>
+    <g id="title-2-4.1"  clip-path="url(#title-2-4.1.clipPath)" >
+      <g id="title-2-4"  >
+      <g id="title-2-4.1"  stroke-width=".1" transform="translate(347.22, 640.5) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="middle" font-size="19.2px" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="7.5" x="0">Similarity of Diet by Country</tspan></text>
+</g>
+</g>
+      </g>
+    </g>
+  </g>
+  <g id="layout.6"  >
+  <defs>
+    <clipPath id="xlab-5-4.1.clipPath">
+      <rect x="41.6488188976378" y="9.59999999999989" width="611.151181102362" height="22.6" style="fill: none; stroke: none;" />
+    </clipPath>
+  </defs>
+  <g id="xlab-5-4.1"  clip-path="url(#xlab-5-4.1.clipPath)" >
+    <g id="xlab-5-4"  >
+    <g id="xlab-5-4.1"  stroke-width=".1" transform="translate(347.22, 20.9) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" text-anchor="middle" font-size="16px" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="6.5" x="0"> </tspan></text>
+</g>
+</g>
+    </g>
+  </g>
+</g>
+  <g id="layout.7"  >
+  <defs>
+    <clipPath id="ylab-3-2.1.clipPath">
+      <rect x="9.60000000000004" y="41.6488188976377" width="22.6" height="586.551181102362" style="fill: none; stroke: none;" />
+    </clipPath>
+  </defs>
+  <g id="ylab-3-2.1"  clip-path="url(#ylab-3-2.1.clipPath)" >
+    <g id="ylab-3-2"  >
+    <g id="ylab-3-2.1"  stroke-width=".1" transform="translate(20.9, 334.92) ">
+<g transform="scale(1, -1)">
+<text x="0" y="0" transform="rotate(-90)" text-anchor="middle" font-size="16px" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" fill="rgb(0,0,0)" fill-opacity="1" font-weight="normal" font-style="normal" >
+<tspan dy="6.5" x="0"> </tspan></text>
+</g>
+</g>
+    </g>
+  </g>
+</g>
+</g>
+</g>
+</g>
+</svg>

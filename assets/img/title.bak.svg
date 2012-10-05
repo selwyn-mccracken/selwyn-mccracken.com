@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   width="252"
+   height="42"
+   sodipodi:docname="title.png">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="752"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="2.1071429"
+     inkscape:cx="88.840678"
+     inkscape:cy="20.050847"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <image
+     sodipodi:absref="/home/selwyn/focus/img/title.png"
+     xlink:href="title.png"
+     y="0"
+     x="0"
+     id="image12"
+     height="42"
+     width="252" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot2820"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Verdana;font-style:normal;font-weight:normal;font-size:30;-inkscape-font-specification:Verdana;font-stretch:normal;font-variant:normal"><flowRegion
+       id="flowRegion2822"><rect
+         id="rect2824"
+         width="230.64407"
+         height="30.847458"
+         x="2.8474576"
+         y="10.20339"
+         style="font-size:30" /></flowRegion><flowPara
+       id="flowPara2826"></flowPara></flowRoot>  <rect
+     id="rect2836"
+     width="230.64407"
+     height="33.694916"
+     x="1.4237287"
+     y="7.4576273"
+     style="fill:#ffffff" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3610"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Garuda;-inkscape-font-specification:Garuda"
+     transform="translate(0,10)"><flowRegion
+       id="flowRegion3612"><rect
+         id="rect3614"
+         width="228.74576"
+         height="30.372881"
+         x="3.3220339"
+         y="5.4576273"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Garuda;-inkscape-font-specification:Garuda" /></flowRegion><flowPara
+       id="flowPara3616"
+       style="font-size:16px"><flowSpan
+   style="font-size:20px"
+   id="flowSpan3618">Selwyn McCracken, </flowSpan>Ph.D.</flowPara></flowRoot></svg>
