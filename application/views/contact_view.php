@@ -33,12 +33,6 @@ $('#nav-contact').addClass('active');
 	  </p>
       					
 					
-	  <p>
-	    <strong>Address</strong> <br>
-							57B Eastcombe Avenue <br>
-							London, SE7 7JD, United Kingdom					
-	  </p>	
-      	
       </div> <!-- /grid-4 -->
       
     </div> <!-- /row -->
