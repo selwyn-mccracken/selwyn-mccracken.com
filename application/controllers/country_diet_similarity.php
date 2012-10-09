@@ -6,7 +6,7 @@ class Country_diet_similarity extends CI_Controller {
 	{		
 		$this->load->view('templates/header');		
 		$this->load->view('country_diet_similarity_view');
-
+		$this->load->view('templates/explorer_warning');		
 	}
 }
 

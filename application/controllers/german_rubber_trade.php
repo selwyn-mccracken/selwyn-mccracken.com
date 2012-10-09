@@ -1,12 +1,12 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Portfolio extends CI_Controller {
+class German_rubber_trade extends CI_Controller {
 
 	public function index()
 	{		
 		$this->load->view('templates/header');		
-		$this->load->view('portfolio_view');
-		$this->load->view('templates/explorer_warning');		
+		$this->load->view('german_rubber_trade_view');
+
 	}
 }
 

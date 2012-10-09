@@ -6,6 +6,7 @@ class Gapminder_animation extends CI_Controller {
 	{		
 		$this->load->view('templates/header');		
 		$this->load->view('gapminder_animation_view');
+                $this->load->view('templates/explorer_warning');
 
 	}
 }

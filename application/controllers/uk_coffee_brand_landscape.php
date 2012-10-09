@@ -6,7 +6,7 @@ class uk_coffee_brand_landscape extends CI_Controller {
 	{		
 		$this->load->view('templates/header');		
 		$this->load->view('uk_coffee_brand_landscape_view');
-
+		$this->load->view('templates/explorer_warning');		
 	}
 }
 

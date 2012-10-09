@@ -23,7 +23,6 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-    <script src="<?=base_url()?>assets/js/browser_detect.js"> </script>
     <!-- script src="<?=base_url()?>assets/js/modernizr.svg.detect.js"> </script-->
 
   </head>

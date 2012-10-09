@@ -4,6 +4,8 @@
 
 /*------------------------------------------------------------------
 
+
+
 [Layout Stylesheet]
 
 	Project:		Focus Business
@@ -38,17 +40,17 @@
 
 body {
 	margin: 0;
-	
 	font: 12px/1.7em 'Open Sans', arial, sans-serif;
 /*	
+
 	background: #DDD url(../img/bg.png) repeat 0 0;
 */
 }
 
 p {	
 	margin-bottom: 2em;
-	
 	font: 12px/1.7em 'Open Sans', arial, sans-serif;
+	
 }
 
 h1 {
@@ -64,7 +66,6 @@ h2 {
 
 h3 {
 	margin-bottom: .75em;
-	
 	font-weight: 600
 }
 
@@ -73,7 +74,9 @@ h4, h5, h6 {
 }
 
 input {
-	font: 13px/1.7em 'Open Sans', arial, sans-serif;
+    
+      font: 13px/1.7em 'Open Sans', arial, sans-serif;
+    
 }
 
 

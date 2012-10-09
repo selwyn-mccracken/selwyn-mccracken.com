@@ -8,13 +8,6 @@
       
 </div> <!-- /page-title -->
 
-<div id="explorer_warning" class="alert alert-error hidden">
-  <button type="button" class="close" data-dismiss="alert">×</button>
-  <strong>Internet Explorer Warning!</strong>  Please note that the interactive features of this page will only work with
-modern browsers such <a href="www.google.com/chrome">Chrome</a> or <a href="http://www.mozilla.org/">Firefox</a>. Please try again with one of those browsers if at all possible. 
-</div>
-
-
 <div class="container">
   <div class="row">
     <div id="chartarea" class="grid-10"></div>
@@ -36,12 +29,7 @@ function resetAnimation(){
         
 
 $(function() {
-  //raise an alert if explorer detected and use alt image
-  if (BrowserDetect.browser == "Explorer"){
-    $('#explorer_warning').removeClass('hidden')
-  }
-  
-d3.xml("<?=base_url()?>assets/img/portfolio/gapminderMultiPanel.svg", "image/svg+xml", function(xml) {
+  d3.xml("<?=base_url()?>assets/img/portfolio/gapminderMultiPanel.svg", "image/svg+xml", function(xml) {
 
     //attach the imported svg node to a specific document element - in this case an existing div
 	    var importedNode = document.importNode(xml.documentElement, true);
