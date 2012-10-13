@@ -1,6 +1,6 @@
-<script src="<?=base_url()?>assets/js/d3.v2.min.js"> </script>
-<script src="<?=base_url()?>assets/js/sankey.js"> </script>
-<!-- script src="<?=base_url()?>assets/js/german_rubber_trade_data2.json"> </script-->
+<script src="assets/js/d3.v2.min.js"> </script>
+<script src="assets/js/sankey.js"> </script>
+<!-- script src="assets/js/german_rubber_trade_data2.json"> </script-->
 
 <style>
 
@@ -67,7 +67,7 @@ var path = sankey.link();
 
 var xx = null;
 
-d3.json("<?=base_url()?>assets/js/german_rubber_trade_data.json", function(rubber) {
+d3.json("assets/js/german_rubber_trade_data.json", function(rubber) {
   console.log(rubber)
 xx = rubber;
 

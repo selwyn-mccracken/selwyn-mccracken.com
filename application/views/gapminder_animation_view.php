@@ -1,6 +1,6 @@
-<script src="<?=base_url()?>assets/js/CountryIDsJSON.js"></script>
+<script src="assets/data/CountryIDsJSON.js"></script>
 
-<script src="<?=base_url()?>assets/js/d3.v2.min.js"> </script>
+<script src="assets/js/d3.v2.min.js"> </script>
 
 <div id="page-title">
 
@@ -29,7 +29,7 @@ function resetAnimation(){
         
 
 $(function() {
-  d3.xml("<?=base_url()?>assets/img/portfolio/gapminderMultiPanel.svg", "image/svg+xml", function(xml) {
+  d3.xml("assets/img/portfolio/gapminderMultiPanel.svg", "image/svg+xml", function(xml) {
 
     //attach the imported svg node to a specific document element - in this case an existing div
 	    var importedNode = document.importNode(xml.documentElement, true);

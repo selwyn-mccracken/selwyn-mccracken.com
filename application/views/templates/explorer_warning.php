@@ -1,4 +1,4 @@
-<script src="<?=base_url()?>assets/js/browser_detect.js"> </script>
+<script src="assets/js/browser_detect.js"> </script>
 
 <script>
 

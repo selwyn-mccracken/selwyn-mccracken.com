@@ -1,7 +1,7 @@
 <script>
 $('#nav-contact').addClass('active');
 </script>
-<link href="<?=base_url()?>assets/css/pages/contact.css" rel="stylesheet"/>
+<link href="assets/css/pages/contact.css" rel="stylesheet"/>
 
 
 <div id="page-title">

@@ -23,7 +23,7 @@ $(function() {
 
   $('#infobutton').popover({title:"Info",placement:"bottom",content:"Mouse over either chart to highlight a country in the other chart."})
 
-   d3.xml("<?=base_url()?>assets/img/portfolio/starsbar.svg", "image/svg+xml", function(xml) {
+   d3.xml("assets/img/portfolio/starsbar.svg", "image/svg+xml", function(xml) {
 
     //attach the imported svg node to a specific document element - in this case an existing div
 	    var importedNode = document.importNode(xml.documentElement, true);
@@ -49,7 +49,7 @@ $(function() {
 						 });
 	    })
 
-    d3.xml("<?=base_url()?>assets/img/portfolio/stars.svg", "image/svg+xml", function(xml) {
+    d3.xml("assets/img/portfolio/stars.svg", "image/svg+xml", function(xml) {
 	     //attach the imported svg node to a specific document element - in this case an existing div
     var importedNode = document.importNode(xml.documentElement, true);
     d3.select("div#starplot").node().appendChild(importedNode);
@@ -93,7 +93,7 @@ $(function() {
 </script>
 
 
-<script src="<?=base_url()?>assets/js/d3.v2.min.js"> </script>
+<script src="assets/js/d3.v2.min.js"> </script>
 
 
 

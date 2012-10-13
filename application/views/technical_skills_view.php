@@ -1,8 +1,8 @@
 <script>
-$(function(){
-  $('#nav-techskills').addClass('active');
-  $('ul.caretlist li').addClass("icon-caret-right")	
-});
+    $(function(){
+	$('#nav-techskills').addClass('active');
+	$('ul.caretlist li').addClass("icon-caret-right")	
+    });
 </script>
 
 <style>
@@ -30,17 +30,17 @@ img{
 
 <div id="page-title">
 		
-      <h1>Overview of Technical Skills <a style="float: right" href="<?=base_url()?>assets/docs/CV_Selwyn_McCracken_2012-09-17.docx"class="btn btn-small btn-warning">Download CV</a></h1>
+      <h1>Overview of Technical Skills <a style="float: right" href="assets/docs/CV_Selwyn_McCracken_2012-09-17.docx"class="btn btn-small btn-warning">Download CV</a></h1>
     </div> <!-- /page-title -->
     
- <div class="container">
+	<div class="container">
 					
-      <div class="row work-container">
+		    <div class="row work-container">
 				
 	<div class="grid-3">
 	  <!-- h2><span class="slash">//</span> R</h2-->
 	  <a href = "http://www.r-project.org/" class="thumbnail">
-	    <img src="<?=base_url()?>assets/img/cv/Rlogo-2.jpg" alt="R logo">
+	    <img src="assets/img/cv/Rlogo-2.jpg" alt="R logo">
 	  </a>
 	</div> <!-- /grid-3 -->
 
@@ -70,7 +70,7 @@ img{
 	<div class="grid-3">
 	  <!-- <span class="slash">//</span> R</h2-->
 	  <a href = "http://python.org"  class="thumbnail">
-	    <img src="<?=base_url()?>assets/img/cv/python-logo.png" alt="python logo">
+	    <img src="assets/img/cv/python-logo.png" alt="python logo">
 	  </a>
 	</div> <!-- /grid-3 -->
 
@@ -98,7 +98,7 @@ img{
 	<div class="grid-3">
 	  <!-- <span class="slash">//</span> R</h2-->
 	  <a href = "http://www.postgresql.org/" class="thumbnail">
-	    <img src="<?=base_url()?>assets/img/cv/postgresql_logo.png" alt="python logo">
+	    <img src="assets/img/cv/postgresql_logo.png" alt="python logo">
 	  </a>
 	</div> <!-- /grid-3 -->
 
@@ -125,7 +125,7 @@ img{
 	<div class="grid-3">
 	  <!-- <span class="slash">//</span> R</h2-->
 	  <a href = "http://www.ubuntu.com" class="thumbnail">
-	    <img src="<?=base_url()?>assets/img/cv/ubuntu-orange.gif" alt="ubuntu logo">
+	    <img src="assets/img/cv/ubuntu-orange.gif" alt="ubuntu logo">
 	  </a>
 	</div> <!-- /grid-3 -->
 
@@ -151,7 +151,7 @@ img{
 	<div class="grid-3">
 	  <!-- <span class="slash">//</span> R</h2-->
 	  <a href = "http://d3js.org/" class="thumbnail">
-	    <img src="<?=base_url()?>assets/img/cv/d3_gears.png" alt="d3.js logo">
+	    <img src="assets/img/cv/d3_gears.png" alt="d3.js logo">
 	  </a>
 	</div> <!-- /grid-3 -->
 

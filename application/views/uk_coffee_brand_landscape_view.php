@@ -30,7 +30,7 @@ $(function() {
 
   $('#infobutton').popover({title:"Info",placement:"bottom",content:"Mouse over points to show brand names and market share."})
 
-  d3.xml("<?=base_url()?>assets/img/portfolio/coffee_contours.svg", "image/svg+xml", function(xml) {
+  d3.xml("assets/img/portfolio/coffee_contours.svg", "image/svg+xml", function(xml) {
     //attach the imported svg node to a specific document element - in this case an existing div
   var importedNode = document.importNode(xml.documentElement, true);
   d3.select("div#maparea").node().appendChild(importedNode);
@@ -83,4 +83,4 @@ d3.select("svg")
 });
 </script>
 
-<script src="<?=base_url()?>assets/js/d3.v2.min.js"> </script>
+<script src="assets/js/d3.v2.min.js"> </script>

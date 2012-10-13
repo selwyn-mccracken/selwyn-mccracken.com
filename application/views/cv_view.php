@@ -24,7 +24,7 @@ $(function(){
      
     <div id="page-title">
 		
-      <h1>Curriculum vitae <a style="float: right" href="<?=base_url()?>assets/docs/CV_Selwyn_McCracken_2012-09-17.docx"class="btn btn-small btn-warning">Download CV</a></h1>
+      <h1>Curriculum vitae <a style="float: right" href="assets/docs/CV_Selwyn_McCracken_2012-09-17.docx"class="btn btn-small btn-warning">Download CV</a></h1>
 
     </div> <!-- /page-title -->
 
@@ -35,7 +35,7 @@ $(function(){
 	<div class="grid-3">
 	  <h2><span class="slash">//</span> Education</h2>
 	  <a href = "http://www.otago.ac.nz">
-	    <img src="<?=base_url()?>assets/img/cv/otago_clocktower.jpg" alt="Otago Clocktower">
+	    <img src="assets/img/cv/otago_clocktower.jpg" alt="Otago Clocktower">
 	  </a>
 	</div> <!-- /grid-3 -->
 	
@@ -56,7 +56,7 @@ $(function(){
       <div class="row work-container">
 	<div class="grid-3">
 	  <h2><span class="slash">//</span> Employment</h2>
-	  <img src="<?=base_url()?>assets/img/cv/EY_MLP.jpg" alt="Otago Clocktower">
+	  <img src="assets/img/cv/EY_MLP.jpg" alt="Otago Clocktower">
 	</div> <!-- /grid-3 -->
 	<div class="grid-9">
 	  <div class="work-item">

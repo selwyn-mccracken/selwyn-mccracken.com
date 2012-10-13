@@ -1,4 +1,4 @@
-<link href="<?=base_url()?>assets/css/pages/rates.css" rel="stylesheet"/>    
+<link href="assets/css/pages/rates.css" rel="stylesheet"/>    
 
 <script>
 $('#nav-rates').addClass('active');
@@ -51,7 +51,7 @@ These rates are a bargain for someone with my skills and experience.
 	      </div> <!-- /plan-features -->
 	      
 	      <div class="plan-actions">				
-		<a href="<?=site_url()?>/contact" class="btn">Contact Now</a>				
+		<a href="contact" class="btn">Contact Now</a>				
 	      </div> <!-- /plan-actions -->
 	      
 	    </div> <!-- /plan -->
@@ -80,7 +80,7 @@ These rates are a bargain for someone with my skills and experience.
 	      </div> <!-- /plan-features -->
 	      
 	      <div class="plan-actions">				
-		<a href="<?=site_url()?>/contact" class="btn">Contact Now</a>				
+		<a href="contact" class="btn">Contact Now</a>				
 	      </div> <!-- /plan-actions -->
 	      
 	    </div> <!-- /plan -->
