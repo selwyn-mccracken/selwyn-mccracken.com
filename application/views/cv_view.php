@@ -24,7 +24,7 @@ $(function(){
      
     <div id="page-title">
 		
-      <h1>Curriculum vitae <a style="float: right" href="assets/docs/CV_Selwyn_McCracken_2012-09-17.docx"class="btn btn-small btn-warning">Download CV</a></h1>
+      <h1>Curriculum vitae <a style="float: right" href="assets/docs/CV_Selwyn_McCracken_2012.pdf"class="btn btn-small btn-warning">Download CV</a></h1>
 
     </div> <!-- /page-title -->
 

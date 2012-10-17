@@ -10,7 +10,9 @@
 
 <div class="container">
   <div class="row">
-    <div id="chartarea" class="grid-10"></div>
+    <div id="chartarea" class="grid-10">
+      <!--img id = "chart" src="assets/img/portfolio/gapminderMultiPanel.svg" type="image/svg+xml" width="700px" > </img-->
+    </div>
     <div class="grid-2">
       <button id = "reset_button" type="button" class="btn btn-small btn-warning" >Reset animation</button>
       <p id="countrytext"> </p></div>			
@@ -20,7 +22,19 @@
 
 
 <script type="text/javascript">
+    function resetAnimation(){
+	$('#chartarea img').remove();
+	//force full reload ignoring cache by adding random noise to src string
+	randomised_src = "assets/img/portfolio/gapminderMultiPanel.svg" + '?'+Math.random()*Math.random();
+	$('#chartarea').append('<img id = "chart" src=' + randomised_src + ' type="image/svg+xml" width="700px" > </img>');
+    }
 
+
+$(function(){
+    $('#reset_button').bind('click',function(event){resetAnimation();});
+    resetAnimation()
+});
+/*
 function resetAnimation(){
 	var svgdoc = $('#chartarea')[0].firstChild
 		svgdoc.setCurrentTime(0);
@@ -47,7 +61,7 @@ $(function() {
               $(this).popover({'title':countryids[$(this).attr('id')]})
               });
 
-              
+        
               $('#reset_button').bind('click',function(event){resetAnimation();})
 
             $('circle').on('mouseover', function(){
@@ -72,4 +86,5 @@ $(function() {
 })
 
 
+*/
 </script>

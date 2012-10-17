@@ -1,0 +1,82 @@
+<script src="assets/js/d3.v2.min.js"> </script>
+
+<style>
+rect{fill:skyblue}
+svg{border:1px solid silver}
+</style>
+
+<script>
+
+/*
+    Demo of the d3.js reusable chart pattern using a function to generate the accessors
+    As an answer to this question:
+    http://stackoverflow.com/questions/11568751/when-will-this-design-pattern-break
+    And following the ideas of this thread:
+    https://groups.google.com/d/topic/d3-js/2WVlWrLOfhc/discussion
+*/
+
+
+// Usage 
+var data = d3.range(10).map(Math.random);
+
+var chart = Chart().width(400).height(300).margin([20, 0, 20, 0]).gap(20);
+
+d3.select('body')
+    .datum(data)
+    .call(chart);
+
+console.log(chart.width());
+
+
+// Chart module
+function Chart() {
+    var opts = {
+        width: 200,
+        height: 200,
+        margin: [0, 0, 0, 0],
+        gap: 10
+    };
+
+    function exports(selection) {
+        selection.each(function (data) {
+            var chartW = opts.width - opts.margin[1] - opts.margin[3],
+                chartH = opts.height - opts.margin[0] - opts.margin[2],
+                barW = chartW / data.length - opts.gap,
+                barH = function(d, i){return d / d3.max(data) * chartH;},
+                barX = function(d, i){return i / data.length * chartW + opts.gap/2;},
+                barY = function(d, i){return chartH - barH(d);};
+
+            d3.select(this)
+                .append("svg")
+                .attr("width", opts.width)
+                .attr("height", opts.height)
+                .append("g")
+                .attr("transform", "translate("+opts.margin[3]+" "+opts.margin[0]+")")
+                .selectAll("rect")
+                .data(data)
+                .enter().append("rect")
+                .attr("width", barW)
+                .attr("height", barH)
+                .attr("x", barX)
+                .attr("y", barY);
+         });
+    }
+
+    exports.opts = opts;
+    createAccessors(exports);
+    return exports;
+}
+
+
+// Accessors generator
+function createAccessors(exports) {
+    for (var n in exports.opts) {
+        if (!exports.opts.hasOwnProperty(n)) continue;
+        exports[n] = (function(n) {
+            return function(v) {
+                return arguments.length ? (exports.opts[n] = v, this) : exports.opts[n];
+            }
+        })(n);
+    }
+};
+</script>

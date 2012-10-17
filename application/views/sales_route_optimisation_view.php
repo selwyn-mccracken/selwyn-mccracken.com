@@ -3,42 +3,46 @@
 <script src="assets/js/jquery-ui.min.js"> </script>
 <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
 
-<script src="assets/js/nv.d3.js"> </script>
-<link href="assets/css/nv.d3.css" rel="stylesheet"/>
+<script src="assets/js/sm/ggchart2.js"> </script>
 
 <style type="text/css">
 .ui-slider-vertical .ui-state-default {background: white url("assets/css/images/ui-icons_228ef1_256x240.png") no-repeat scroll 53.3% 0%;}
 </style>
 
-
 <style type="text/css">
 
-rect {
+ rect {
   fill: #ddd;
 }
 
-.grid line {
+ .grid line {
   stroke: #fff;
 }
 
-.grid line.minor {
+ .grid line.minor {
   stroke-width: .5px;
 }
 
-.grid text {
+ .grid text {
   display: none;
 }
 
-.axis line {
+ .axis line {
   stroke: #000;
 }
 
-#linechart path {
+ .grid path {
   display: none;
 }
 
-</style>
+ .axis path {
+  display: none;
+}
 
+.line {
+    stroke:red;
+}
+</style>
 
 <div id="page-title">
 
@@ -46,28 +50,33 @@ rect {
       
 </div> <!-- /page-title -->
 
-<div class="container">
-  <div class="row">
-    <div id="chartarea" class="grid-6"></div>
-    <div id="controlarea" class="grid-1">
-      <p>
-        <label for="amount">Number of Stops:</label>
-        <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" />
-      </p>
+    <div class="container">
+      <div class="row">
+	<div id="chartarea" class="grid-6"></div>
+	<div id="controlarea" class="grid-1">
+	  <p>
+            <label for="amount">Number of Stops:</label>
+            <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" />
+	  </p>
  
-      <div id="slider-vertical" style="height: 250px;"></div> <!-- icon-sort  class="ui-icon-arrowthick-2-n-s" -->
-    </div>
-    <div id="linechart" class="grid-5">
+	  <div id="slider-vertical" style="height: 250px;"></div> 
+	</div>
+	<div id="linechart" class="grid-5">
      
+	</div>
+      </div>
     </div>
-  </div>
-</div>
 
 
 <script type="text/javascript">
 var _g = {
-  circle_scale_factor:100,
-  start_route:20
+    circle_scale_factor:100,
+    start_route:20,
+    linechart: ggchart()
+	.xScale(d3.scale.linear().domain([0, 50]))
+	.yScale(d3.scale.linear().domain([0, 65]))
+	.height(400).width(400)
+	.interpolate('basis')
 }
 
 var xy_projection = d3.geo.albers().origin([12.5,55]).translate([200, 150]);
@@ -108,8 +117,46 @@ function change_route(route_id) {
 
     
 $(function() {
-    get_line_chart_data()
 
+//    make_line_chart() ;
+
+  
+pth2 = [
+    [ { "x" : 0, "key" : "Revenue", "y" : 10.705 }, { "x" : 1, "key" : "Revenue", "y" : 16.048 }, { "x" : 2, "key" : "Revenue", "y" : 19.38 }, { "x" : 3, "key" : "Revenue", "y" : 22.71 }, { "x" : 4, "key" : "Revenue", "y" : 25.853 }, { "x" : 5, "key" : "Revenue", "y" : 28.497 }, { "x" : 6, "key" : "Revenue", "y" : 31.028 }, { "x" : 7, "key" : "Revenue", "y" : 32.793 }],
+    [ { "x" : 35, "key" : "Profit", "y" : 14.6527606753479 }, { "x" : 36, "key" : "Profit", "y" : 11.5659792597193 }, { "x" : 37, "key" : "Profit", "y" : 5.70461327879051 }, { "x" : 38, "key" : "Profit", "y" : 14.1991822016556 }, { "x" : 39, "key" : "Profit", "y" : 14.3254279428087 }, { "x" : 40, "key" : "Profit", "y" : 6.84316983140512 }, { "x" : 41, "key" : "Profit", "y" : 13.8005558715188 }, { "x" : 42, "key" : "Profit", "y" : 6.83941710795572 }, { "x" : 43, "key" : "Profit", "y" : 15.3439136719832 }, { "x" : 44, "key" : "Profit", "y" : 9.95043253938967 }, { "x" : 45, "key" : "Profit", "y" : 17.413859646193 }, { "x" : 46, "key" : "Profit", "y" : 18.5064108756967 }, { "x" : 47, "key" : "Profit", "y" : 8.65038164773931 }, { "x" : 48, "key" : "Profit", "y" : 8.34449539993991 }, { "x" : 49, "key" : "Profit", "y" : 14.4019398828926 } ]
+];
+
+dummydata = {
+	pathdata:pth2,
+	points: [{x:0,y:0}, {x:0,y:1}]
+    };
+
+
+/*    dummydata = {
+	pathdata: [
+	    [{x:0,y:0},{x:0.5,y:.5},{x:1,y:.5}],
+	    [{x:0,y:1},{x:.5,y:.5},{x:0,y:1}]
+	],
+	points: [{x:0,y:0}, {x:0,y:1}]
+    };
+
+    dummydata2 = {
+	pathdata: [
+	    [{x:.5,y:1},{x:0.5,y:0},{x:1,y:.5}],
+	    [{x:1,y:0},{x:.1,y:.5},{x:1,y:1}]
+	],
+	points: [{x:.5,y:1}, {x:1,y:0}]
+    };
+*/
+
+    var linechart = ggchart()
+	.xScale(d3.scale.linear().domain([0, 50]))
+	.yScale(d3.scale.linear().domain([0, 60]))
+	.height(400).width(400)
+    
+
+    d3.select('#linechart').datum(dummydata).call(_g.linechart);
+    
     //slider set-up
     $( "#slider-vertical" ).slider({
 	orientation: "vertical",
@@ -137,7 +184,7 @@ $(function() {
        //get the cities and plot as circles on the map - area sized by value
 	d3.json("assets/data/sales-route-cities.json",function(data) {
 
-       //  _g.cities = data;
+            _g.cities = data;
 
          countries.selectAll('circle.city')
              .data(data).enter().append('circle').attr('class','city')
@@ -148,7 +195,7 @@ $(function() {
                var val = Math.sqrt((d.Value * _g.circle_scale_factor)/Math.PI);
                return val;})
                           .each(function(d){
-               //Popover content
+               //Popover content - try tipsy instead http://bl.ocks.org/1373263
                $(this).popover({'title':d.City, 'content': 'Anticipate revenue: $' + d.Value + 'm'})//.popover('show')
              })
 //.style('pointer-events','none')
@@ -172,77 +219,32 @@ $(function() {
   });
 
 
-function make_linegraph(linedata){
- // Define identity (1:1) scales
-var x = d3.scale.identity().domain([0,450]);
-var y = d3.scale.identity().domain([0,300]);
- 
-// Define container
-var chart = d3.select("#linechart")
-  .append("svg")
-    .attr("class", "chart")
-    .attr("width", 400)
-    .attr("height", 400)
-    .append("g")
-      // move 0,0 slightly down and right to accomodate axes
-     .attr("transform", "translate(30,20)");
- 
-// Draw X-axis grid lines
-chart.selectAll("line.x")
-  .data(x.ticks(10))
-  .enter().append("line")
-  .attr("class", "x")
-  .attr("x1", x)
-  .attr("x2", x)
-  .attr("y1", 0)
-  .attr("y2", 300)
-  .style("stroke", "#ccc");
- 
-// Draw Y-axis grid lines
-chart.selectAll("line.y")
-  .data(y.ticks(10))
-  .enter().append("line")
-  .attr("class", "y")
-  .attr("x1", 0)
-  .attr("x2", 0)
-  .attr("y1", y )
-  .attr("y2", y )
-  .style("stroke", "#ccc");
- 
-// Define stock x and y axis
-var xAxis = d3.svg.axis().scale(x).orient('bottom');
-var yAxis = d3.svg.axis().scale(y).orient('left');
- 
-chart.append('g')
-  .attr("class", "axis")
-  .call(xAxis);
- 
-chart.append('g')
-  .attr("class", "axis")
-  .call(yAxis);
-}
-
-function get_line_chart_data() {
-  d3.json("assets/data/sales-routes-profits.json",function(data) {
-    var result = [];
-    var linecolours = {'Revenue':'red','Costs':'green','Profit':'blue'};
+var xx = null;
+function make_line_chart() {
+    xx = $.getJSON("assets/data/sales-routes-profits.json",function(data) {
+	//console.log(data);
+	var result = [];
+	var linecolours = {'Revenue':'red','Costs':'green','Profit':'blue'};
     
-    var linetypes = ['Revenue','Costs','Profit'];
+	var linetypes = ['Revenue','Costs','Profit'];
 
-    linetypes.map(function(i){
-      result.push(
-      {
-        values: data.filter(function(j){return j.key == i;}),
-                  key: i,
-                  color: linecolours[i]
-      }
-      )
-    }
-    )
+	linetypes.map(function(i){
+	    result.push(
+		{
+		    points: [{x:0,y:0.5}, {x:0,y:1}],
+		    pathdata: data.filter(function(j){return j.key == i;}),
+                    key: i,
+                    colour: linecolours[i]
+		}
+	    );
+	})
 
-    _g.line_chart_data = result;
-
-    make_linegraph(result);
+	_g.line_chart_data = result;
+	console.log(result)
+	d3.select("#linechart")
+	    .datum(result)
+	    .call(_g.linechart)
+   
 
   })
 
