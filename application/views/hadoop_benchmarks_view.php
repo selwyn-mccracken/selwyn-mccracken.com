@@ -1,8 +1,8 @@
 <style>
-/*.popover-title {
+.popover-title {
     margin-bottom:0em
 }
-*/
+
 </style>
 
  <div id="page-title">
