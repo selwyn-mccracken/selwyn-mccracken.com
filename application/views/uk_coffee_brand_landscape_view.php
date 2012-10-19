@@ -37,10 +37,12 @@ $(function() {
 
   d3.selectAll('circle').attr({'r':5, opacity:.65} );
   
-  d3.selectAll('circle').each(function(d){
-    //Popover content
-    $(this).popover({'title':$(this).attr('brand'), 'content': $(this).attr('share')})
-  })
+  d3.selectAll('circle')
+	  .each(function(d){
+	      //Popover content
+	      $(this).popover({'title':$(this).attr('brand'), 'content': $(this).attr('share')})
+	  })
+      
 
 d3.select("svg")
       .attr("viewBox", "0 0 960 672")

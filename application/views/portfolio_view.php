@@ -67,12 +67,14 @@ font-size: 16px;
 				
     <div class="grid-4">
       <div class="work-item">
-	<h3>Japan PET coffee consumption</h3>
-	<a class="thumbnail" href="japan_pet_coffee_consumption">
-	  <img src="assets/img/portfolio/Japan_PET_coffee_penetration_by_prefecture.png" alt="" />
+	<h3>Sales route profit optimisation</h3>
+	<a class="thumbnail" href="sales_route_optimisation">
+	  <img src="assets/img/portfolio/sales_route_optimisation_thumb.png" alt="" />
 	</a> <!-- /img -->
-	<p>Pre-packaged, ready-to-drink coffee is a huge market in Japan.</p>
-	<p><a href="japan_pet_coffee_consumption">View Project »</a></p>			
+	<p>
+	  A demonstration of route profitability optimisation.
+	</p>
+	<p><a href="sales_route_optimisation">View Project »</a></p>			
       </div>
     </div> <!-- /grid-4 -->
   </div> <!-- /row -->
@@ -87,7 +89,7 @@ font-size: 16px;
 	<a class="thumbnail" href="gapminder_animation">
 	  <img src="assets/img/portfolio/gapminder_thumbnail.png" alt="" />
 	</a> <!-- /img -->
-	<p>Fertility vs Life Expectancy.</p>
+	<p>Changes in Female Fertility vs Life Expectancy over time. </p>
 	<p><a href="gapminder_animation" class="">View Project »</a></p>			
       </div>
     </div> <!-- /grid-4 -->
@@ -132,6 +134,20 @@ font-size: 16px;
    </div> <!-- /grid-4 -->
 
 
+ <div class="grid-4">
+      <div class="work-item">
+	<h3>Japan PET coffee consumption</h3>
+	<a class="thumbnail" href="japan_pet_coffee_consumption">
+	  <img src="assets/img/portfolio/Japan_PET_coffee_penetration_by_prefecture.png" alt="" />
+	</a> <!-- /img -->
+	<p>Pre-packaged, ready-to-drink coffee is a huge market in Japan.</p>
+	<p><a href="japan_pet_coffee_consumption">View Project »</a></p>			
+      </div>
+    </div> <!-- /grid-4 -->
+  </div> <!-- /row -->
+			
+  
+  <hr class="row-divider" />
 
 </div>
              

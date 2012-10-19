@@ -5,6 +5,9 @@
 
 <script src="assets/js/sm/ggchart2.js"> </script>
 
+<script type="text/javascript" src="assets/js/jquery.tipsy.js"></script>
+<link href="assets/css/tipsy.css" rel="stylesheet" type="text/css" />
+
 <style type="text/css">
 .ui-slider-vertical .ui-state-default {background: white url("assets/css/images/ui-icons_228ef1_256x240.png") no-repeat scroll 53.3% 0%;}
 </style>
@@ -42,27 +45,57 @@
 .line {
     stroke:red;
 }
+
+.line[linekey='Revenue']{ stroke:red;}
+.line[linekey='Costs']{ stroke:steelblue;}
+.line[linekey='Profit']{ stroke:blue;}
+
+svg {
+  font: 10px sans-serif;
+}
+
+
+.popover.top{margin-left:110px;}
+.popover.top .arrow{margin-left:-110px;}
+
+.popover-title{padding:0px 0px;line-height:0;background-color:#f5f5f5;border-bottom:1px solid #eee;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;}
+.popover-content{padding:3px;}
+
+
+
 </style>
+
+<style>
+svg title{
+ stroke:red;
+ stroke-width: .5px;
+    background-color: white;
+}
+}
+</style>
+
 
 <div id="page-title">
 
-  <h1>Sales route optimisation </h1>		
+  <h1>Sales route profit optimisation </h1>		
       
 </div> <!-- /page-title -->
-
+<p> This is a contrived profit optimisation demonstration for a sales route with approximately fixed costs per kilometer travelled (as the crow flies), for example a touring rock band with a large entourage and roadshow that travels entirely by chartered plane.  </p>
     <div class="container">
       <div class="row">
-	<div id="chartarea" class="grid-6"></div>
+	<div id="chartarea" class="grid-6"><h4 id="maptitle">Optimised Route.</h4></div>
 	<div id="controlarea" class="grid-1">
 	  <p>
-            <label for="amount">Number of Stops:</label>
-            <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" />
+            <label for="amount" >Number of Stops:</label>
+            <!--input type="text"  id="amount" style="border: 0; color: #f6931f; font-weight: bold;" /-->
+	    
+            <label for="amount"  id="amount" style="color: #f6931f;font-weight:bold" >Number of Stops:</label>
 	  </p>
  
 	  <div id="slider-vertical" style="height: 250px;"></div> 
 	</div>
 	<div id="linechart" class="grid-5">
-     
+	  <h4>Cumulative Revenue, Costs &amp; Profit vs Stops</h4>
 	</div>
       </div>
     </div>
@@ -71,12 +104,14 @@
 <script type="text/javascript">
 var _g = {
     circle_scale_factor:100,
-    start_route:20,
+    start_route:16,
     linechart: ggchart()
 	.xScale(d3.scale.linear().domain([0, 50]))
 	.yScale(d3.scale.linear().domain([0, 65]))
 	.height(400).width(400)
 	.interpolate('basis')
+	.margin( {top: 10, right: 60, bottom: 40, left: 40}),
+    linetypes: ['Revenue','Costs','Profit']
 }
 
 var xy_projection = d3.geo.albers().origin([12.5,55]).translate([200, 150]);
@@ -98,6 +133,9 @@ var route = d3.svg.line()
     .y(function(d){return xy_projection([d.Longitude,d.Latitude])[1];})
     .interpolate("linear");
  
+function highlight_chart_circles(nodeid){
+    d3.selectAll("#linechart circle").style('fill',function(d){ return d.x <= nodeid ?  'red' : 'blue';});
+}
 
 //route transition function
 function change_route(route_id) {
@@ -118,45 +156,11 @@ function change_route(route_id) {
     
 $(function() {
 
-//    make_line_chart() ;
+    make_line_chart() ;
 
-  
-pth2 = [
-    [ { "x" : 0, "key" : "Revenue", "y" : 10.705 }, { "x" : 1, "key" : "Revenue", "y" : 16.048 }, { "x" : 2, "key" : "Revenue", "y" : 19.38 }, { "x" : 3, "key" : "Revenue", "y" : 22.71 }, { "x" : 4, "key" : "Revenue", "y" : 25.853 }, { "x" : 5, "key" : "Revenue", "y" : 28.497 }, { "x" : 6, "key" : "Revenue", "y" : 31.028 }, { "x" : 7, "key" : "Revenue", "y" : 32.793 }],
-    [ { "x" : 35, "key" : "Profit", "y" : 14.6527606753479 }, { "x" : 36, "key" : "Profit", "y" : 11.5659792597193 }, { "x" : 37, "key" : "Profit", "y" : 5.70461327879051 }, { "x" : 38, "key" : "Profit", "y" : 14.1991822016556 }, { "x" : 39, "key" : "Profit", "y" : 14.3254279428087 }, { "x" : 40, "key" : "Profit", "y" : 6.84316983140512 }, { "x" : 41, "key" : "Profit", "y" : 13.8005558715188 }, { "x" : 42, "key" : "Profit", "y" : 6.83941710795572 }, { "x" : 43, "key" : "Profit", "y" : 15.3439136719832 }, { "x" : 44, "key" : "Profit", "y" : 9.95043253938967 }, { "x" : 45, "key" : "Profit", "y" : 17.413859646193 }, { "x" : 46, "key" : "Profit", "y" : 18.5064108756967 }, { "x" : 47, "key" : "Profit", "y" : 8.65038164773931 }, { "x" : 48, "key" : "Profit", "y" : 8.34449539993991 }, { "x" : 49, "key" : "Profit", "y" : 14.4019398828926 } ]
-];
+    $("#maptitle").text("Optimised route: Top " + (parseInt( _g.start_route) + 1) + " most valuable destinations.")
+    $("#amount" ).text(  _g.start_route );
 
-dummydata = {
-	pathdata:pth2,
-	points: [{x:0,y:0}, {x:0,y:1}]
-    };
-
-
-/*    dummydata = {
-	pathdata: [
-	    [{x:0,y:0},{x:0.5,y:.5},{x:1,y:.5}],
-	    [{x:0,y:1},{x:.5,y:.5},{x:0,y:1}]
-	],
-	points: [{x:0,y:0}, {x:0,y:1}]
-    };
-
-    dummydata2 = {
-	pathdata: [
-	    [{x:.5,y:1},{x:0.5,y:0},{x:1,y:.5}],
-	    [{x:1,y:0},{x:.1,y:.5},{x:1,y:1}]
-	],
-	points: [{x:.5,y:1}, {x:1,y:0}]
-    };
-*/
-
-    var linechart = ggchart()
-	.xScale(d3.scale.linear().domain([0, 50]))
-	.yScale(d3.scale.linear().domain([0, 60]))
-	.height(400).width(400)
-    
-
-    d3.select('#linechart').datum(dummydata).call(_g.linechart);
-    
     //slider set-up
     $( "#slider-vertical" ).slider({
 	orientation: "vertical",
@@ -165,8 +169,10 @@ dummydata = {
         max: 49,
         value: _g.start_route,
         slide: function( event, ui ) {
-            $( "#amount" ).val( ui.value );
+            $("#amount" ).text( ui.value );
+	    $("#maptitle").text("Optimised route: Top " + (parseInt(ui.value) + 1) + " most valuable destinations.")
             change_route(ui.value);
+	    highlight_chart_circles(ui.value);
         }
     });
 
@@ -194,15 +200,18 @@ dummydata = {
              .attr('r',function(d) {
                var val = Math.sqrt((d.Value * _g.circle_scale_factor)/Math.PI);
                return val;})
-                          .each(function(d){
+		.append("svg:title")
+		.text(function(d) { return d.City + ' - Anticipated revenue: $' + d.Value + 'm'; });
+                     /*     .each(function(d){
                //Popover content - try tipsy instead http://bl.ocks.org/1373263
-               $(this).popover({'title':d.City, 'content': 'Anticipate revenue: $' + d.Value + 'm'})//.popover('show')
+               $(this).popover({'title':d.City, 'content': 'Anticipated revenue: $' + d.Value + 'm'})//.popover('show')
              })
-//.style('pointer-events','none')
+*/
+
 
        });
 
-       //fetch the routes and 
+       //fetch the routes and display
       d3.json("assets/data/sales-routes.json",function(data) {
       
          _g.routes = data;
@@ -219,37 +228,124 @@ dummydata = {
   });
 
 
-var xx = null;
 function make_line_chart() {
-    xx = $.getJSON("assets/data/sales-routes-profits.json",function(data) {
-	//console.log(data);
-	var result = [];
-	var linecolours = {'Revenue':'red','Costs':'green','Profit':'blue'};
-    
-	var linetypes = ['Revenue','Costs','Profit'];
-
-	linetypes.map(function(i){
-	    result.push(
-		{
-		    points: [{x:0,y:0.5}, {x:0,y:1}],
-		    pathdata: data.filter(function(j){return j.key == i;}),
-                    key: i,
-                    colour: linecolours[i]
-		}
-	    );
+    var linecolours = {'Revenue':'red','Costs':'green','Profit':'blue'};
+    //fetch routes and points in separate ajax calls, then creat chart from globally assigned data
+    $.when
+    (
+	//
+	$.getJSON("assets/data/sales-routes-profits.json",function(data) {
+	    //console.log(data);
+	    var linedata = [];    
+	   
+	    _g.linetypes.map(function(i){
+		linedata.push( data.filter(function(j){return j.key == i;}));		
+	    })
+	    _g.linedata = linedata;
+	}),
+	$.getJSON("assets/data/sales-route-cities.json",function(data) {
+	    //console.log(data);
+	    var pointdata = [];    
+	    
+	    data.map(function(i){
+		pointdata.push({x:i.id,y:i.cumrevenue,Value:i.Value,City:i.City})
+	    })
+	    _g.pointdata = pointdata;
 	})
-
+    )
+    .then(function(x,y){
+	//make the line chart
+	result = {
+	    pathdata: _g.linedata,
+	    points: _g.pointdata,
+	    linetype: _g.linetypes
+	}
+	
 	_g.line_chart_data = result;
-	console.log(result)
+
 	d3.select("#linechart")
 	    .datum(result)
-	    .call(_g.linechart)
-   
+	    .call(_g.linechart);
 
-  })
+	//update the appearance of the various circles
 
+	chartcircles = d3.selectAll('#linechart circle')
+            .style('opacity',0.5)
+            .style('fill','red')
+            .attr('r',function(d) {
+               var val = Math.sqrt((d.Value * _g.circle_scale_factor)/Math.PI);
+               return val;})
+	    .append("svg:title")
+	    .text(function(d) { return d.City + ': $' + d.Value + 'm'; });
+/*
+            .each(function(d){
+               //Popover content - try tipsy instead http://bl.ocks.org/1373263
+               $(this).popover({'title':d.City, 'content': 'Anticipated revenue: $' + d.Value + 'm'})//.popover('show')
+             })
+*/
+	   
+/*tipsy({ 
+            gravity: 'w', 
+            html: true, 
+            title: '<h1>Hi there!</h1>' 
+            }
+	)
+    })*/
+
+	//add axis labels
+	//ToDo add to ggchart function
+	var svg = d3.select("#linechart svg")
+	svg.append("text")
+	    .attr("class", "x label")
+	    .attr("text-anchor", "end")	    
+	    .attr("x",270)
+	    .attr("y", 395)
+	    .text("Number of Route Stops");
+
+	svg.append("text")
+	    .attr("class", "y label")
+	    .attr("text-anchor", "end")
+	    .attr("y", 6)
+	    .attr("dy", ".75em")
+	    .attr("transform", "rotate(-90)")
+	    .text("Anticipated Revenue ($m)")
+	    .attr('x',-100);
+
+	highlight_chart_circles(_g.start_route);
+
+	svg.append("text")
+	    .attr("text-anchor", "end")	    
+	    .attr("x",350)
+	    .attr("y", 300)
+	    .text("Cumulative Profit");
+
+	svg.append("text")
+	    .attr("text-anchor", "end")	    
+	    .attr("x",350)
+	    .attr("y", 80)
+	    .text("Cumulative Costs");
+
+	svg.append("text")
+	    .attr("text-anchor", "end")	    
+	    .attr("x",150)
+	    .attr("y", 80)
+	    .text("Cumulative Revenue");
+
+	//d3.select(".line[linekey='Profit']")
+	svg.append("circle")
+	    .attr("cx",134)
+	    .attr("cy", 272)
+	    .attr("x", 16)
+	    .attr("r", 5)
+	    .style("fill", 'blue')
+	    .attr("opacity",0.5)
+	    .each(function(d){
+		$(this).popover({'title':'', 'content': 'Maximum profit occurs after 16 stops','placement':'top'}).popover('show')
+	    })
+
+
+
+    })
 }
-
-
   
 </script>

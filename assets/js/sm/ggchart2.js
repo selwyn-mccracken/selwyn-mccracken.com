@@ -86,6 +86,7 @@ function ggchart() {
 		       .data(pathdata)
 		       .enter().append("path")
 		       .attr("class", "line")
+		       .attr("linekey", function(d){return d[0].key;})
 		       .attr("d", pathline)
 		       .style("stroke-width", 2)
 		       .style("fill", "none");
