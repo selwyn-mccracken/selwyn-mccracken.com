@@ -340,7 +340,7 @@ function make_line_chart() {
 	    .style("fill", 'blue')
 	    .attr("opacity",0.5)
 	    .each(function(d){
-		$(this).popover({'title':'', 'content': 'Maximum profit occurs after 16 stops','placement':'top'}).popover('show')
+		$(this).popover({trigger:'manual','title':'', 'content': 'Maximum profit occurs after 16 stops','placement':'top'}).popover('show')
 	    })
 
 
