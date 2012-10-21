@@ -93,7 +93,7 @@ $('#nav-home').addClass('active');
     <div class="row">
       <div id="welcome" class="grid-12">
 	<h1>
-	  Welcome. I am a Data Scientist that specializes in advanced analytics and data visualization. 
+	  Welcome. I am a Data Scientist who specialises in advanced analytics and data visualisation. 
 	  Check out my  <a href="portfolio">portfolio</a> and <a href="contact">get in touch</a>.
 	</h1>
       </div>
