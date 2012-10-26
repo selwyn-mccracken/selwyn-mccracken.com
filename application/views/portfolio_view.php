@@ -83,16 +83,17 @@ font-size: 16px;
   <hr class="row-divider" />
 
   <div class="row work-container">
+
     <div class="grid-4">
-      <div class="work-item">
-	<h3>Gapminder animation</h3>
-	<a class="thumbnail" href="gapminder_animation">
-	  <img src="assets/img/portfolio/gapminder_thumbnail.png" alt="" />
-	</a> <!-- /img -->
-	<p>Changes in Female Fertility vs Life Expectancy over time. </p>
-	<p><a href="gapminder_animation" class="">View Project »</a></p>			
-      </div>
-    </div> <!-- /grid-4 -->
+     <div class="work-item">
+       <h3>Ensemble document classification</h3>
+       <a class="thumbnail" href="ensemble_document_classification">
+	 <img src="assets/img/portfolio/ensemble_classification_thumb.png" alt="" />
+       </a> <!-- /img -->
+       <p>A demonstration of how predictive classifications can be improved by combining models into an ensemble.</p>
+       <p><a href="ensemble_document_classification">View Project »</a></p>			
+     </div>
+   </div> <!-- /grid-4 -->
     
     <div class="grid-4">
       <div class="work-item">
@@ -146,16 +147,17 @@ font-size: 16px;
      </div>
    </div> <!-- /grid-4 -->
  
+
    <div class="grid-4">
-     <div class="work-item">
-       <h3>Ensemble document classification</h3>
-       <a class="thumbnail" href="ensemble_document_classification">
-	 <img src="assets/img/portfolio/ensemble_classification_thumb.png" alt="" />
-       </a> <!-- /img -->
-       <p>A demonstration of how predictive classifications can be improved by combining models into an ensemble.</p>
-       <p><a href="ensemble_document_classification">View Project »</a></p>			
-     </div>
-   </div> <!-- /grid-4 -->
+      <div class="work-item">
+	<h3>Gapminder animation</h3>
+	<a class="thumbnail" href="gapminder_animation">
+	  <img src="assets/img/portfolio/gapminder_thumbnail.png" alt="" />
+	</a> <!-- /img -->
+	<p>Changes in Female Fertility vs Life Expectancy over time. </p>
+	<p><a href="gapminder_animation" class="">View Project »</a></p>			
+      </div>
+    </div> <!-- /grid-4 -->
 
 </div> <!-- /row -->
   <hr class="row-divider" />

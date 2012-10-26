@@ -61,9 +61,9 @@
 	<li id="nav-cv">
 	  <a href="cv">CV</a>
 	</li>			
-	<li id="nav-rates">
+	<!--li id="nav-rates">
 	  <a href="rates">Rates</a>
-	</li>
+	</li-->
 	<li id="nav-contact">
 	  <a href="contact">Contact</a>
 	</li>
