@@ -65,7 +65,10 @@ $(window).load(function(){
 
     $('#figure3').popover({trigger:'manual',position:'right',title:'The best of both worlds',content:"Blending the predictions of both models together allows for the strengths of each to be retained. The major 'theme' from logistic model is still apparant, however the random forest softens the hard boundary when imporant variations occur. The question then becomes, what weights should be applied to each model?"}).popover('show')
 
-    $('#figure4').popover({trigger:'manual',position:'right',title:'Ensemble performance tuning',content:'Maximum classification performance on the test/validation data occurred when a ~75% weighting was assigned to the logistic model'}).popover('show')
+    var f4_text = "The main tuning parameter for this ensemble is the weight assigned to each model. For the task of classifying the test/validation documents, maximum accuracy was achieved with a ~75% weighting given to the logistic model. By contrast, the best ensemble performance on the training data occurred when the random forest was assigned a weight of 100% and 0% for the logistic model, thus illustrating the tendency of the random forest to 'over-fit' its predictions to the training data, and reducing its ability to generalise to unseen data."
+
+//performance  we can assess how well the ensemble predicts the known document categories across the test data used for validation (with the results on the training data provided for comparison). dataresults Based on results Maximum classification performance on the test/validation data occurred when
+    $('#figure4').popover({trigger:'manual',position:'right',title:'Ensemble performance tuning',content:f4_text}).popover('show')
 
 
 
