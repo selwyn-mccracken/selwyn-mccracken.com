@@ -1,3 +1,5 @@
+<script type="text/javascript" src="assets/js/jquery.tipsy.js"></script>
+<link href="assets/css/tipsy.css" rel="stylesheet" type="text/css" />
 
  <div id="page-title">
 
@@ -41,11 +43,14 @@ $(function() {
 
 	d3.selectAll('circle').attr({'r':5, opacity:.65} );
   
-	d3.selectAll('circle')
-	    .each(function(d){
-		//Popover content
-		$(this).popover({'title':$(this).attr('brand'), 'content': $(this).attr('share')})
-	    });
+	//add info labels with tipsy 
+	$('svg circle').tipsy({ 
+            gravity: 'w', 
+            html: true, 
+            title: function() {
+		return '<h5>' + $(this).attr('brand') + '</h5><p>Market share: ' + $(this).attr('share') + '</p>'; 
+            }
+	});
 		
 	//resize the chart
 	svg = d3.select("svg")	

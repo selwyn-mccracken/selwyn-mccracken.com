@@ -200,13 +200,17 @@ $(function() {
              .attr('r',function(d) {
                var val = Math.sqrt((d.Value * _g.circle_scale_factor)/Math.PI);
                return val;})
-		.append("svg:title")
-		.text(function(d) { return d.City + ' - Anticipated revenue: $' + d.Value + 'm'; });
-                     /*     .each(function(d){
-               //Popover content - try tipsy instead http://bl.ocks.org/1373263
-               $(this).popover({'title':d.City, 'content': 'Anticipated revenue: $' + d.Value + 'm'})//.popover('show')
-             })
-*/
+
+	//add info labels with tipsy 
+	$('svg circle.city').tipsy({ 
+            gravity: 'w', 
+            html: true, 
+            title: function() {
+		var d = this.__data__;
+		return '<h5>'+ d.City+ '</h5><p>' + 'Anticipated revenue: $' + d.Value + 'm</p>'; 
+            }
+	});
+
 
 
        });
@@ -274,23 +278,17 @@ function make_line_chart() {
             .style('fill','red')
             .attr('r',function(d) {
                var val = Math.sqrt((d.Value * _g.circle_scale_factor)/Math.PI);
-               return val;})
-	    .append("svg:title")
-	    .text(function(d) { return d.City + ': $' + d.Value + 'm'; });
-/*
-            .each(function(d){
-               //Popover content - try tipsy instead http://bl.ocks.org/1373263
-               $(this).popover({'title':d.City, 'content': 'Anticipated revenue: $' + d.Value + 'm'})//.popover('show')
-             })
-*/
-	   
-/*tipsy({ 
+               return val;});
+
+	//add info labels with tipsy 
+	$('#linechart svg circle').tipsy({ 
             gravity: 'w', 
             html: true, 
-            title: '<h1>Hi there!</h1>' 
+            title: function() {
+		var d = this.__data__;
+		return '<h5>'+ d.City+ '</h5><p>' + 'Anticipated revenue: $' + d.Value + 'm</p>'; 
             }
-	)
-    })*/
+	});
 
 	//add axis labels
 	//ToDo add to ggchart function
