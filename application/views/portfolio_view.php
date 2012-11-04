@@ -97,7 +97,7 @@ font-size: 16px;
     
     <div class="grid-4">
       <div class="work-item">
-	<h3>Country diet similarity</h3>
+	<h3>Country diet similarity clustering</h3>
 	<a class="thumbnail"  href="country_diet_similarity">
 	  <img src="assets/img/portfolio/diet_similarity_thumbnail.png" alt="" />
 	</a> <!-- /img -->
@@ -138,12 +138,12 @@ font-size: 16px;
 
    <div class="grid-4">
      <div class="work-item">
-       <h3>Japan PET coffee consumption</h3>
-       <a class="thumbnail" href="japan_pet_coffee_consumption">
-	  <img src="assets/img/portfolio/Japan_PET_coffee_penetration_by_prefecture.png" alt="" />
+       <h3>U.S. State comparisons</h3>
+       <a class="thumbnail" href="us_state_comparisons">
+	  <img src="assets/img/portfolio/US_state_comparison_thumb.png" alt="" />
        </a> <!-- /img -->
-       <p>Pre-packaged, ready-to-drink coffee is a huge market in Japan.</p>
-       <p><a href="japan_pet_coffee_consumption">View Project »</a></p>			
+       <p>An interactive map comparing US States across a number of statistical dimensions.</p>
+       <p><a href="us_state_comparisons">View Project »</a></p>			
      </div>
    </div> <!-- /grid-4 -->
  
