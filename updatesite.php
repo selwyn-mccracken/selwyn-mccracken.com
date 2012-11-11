@@ -1,3 +1,4 @@
+<?php
 /*
 simple update script for the production server to pull update code from the central git repo.
 
@@ -24,7 +25,7 @@ chmod -R g+rw /path/to/your/repo
 find /path/to/your/repo -type d -print0 | xargs -0 chmod g+s
 
 */
-<?php
+
 $output = shell_exec('git pull');
 echo "<pre>$output</pre>";
 ?>
