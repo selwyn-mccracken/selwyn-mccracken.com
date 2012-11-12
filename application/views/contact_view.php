@@ -21,18 +21,16 @@ $('#nav-contact').addClass('active');
       <div class="grid-8">
 	<h3><span class="slash">//</span> For all enquiries, please use the contact details below. </h3>
 	  
-	  <p>	
-	    <strong>Email</strong><br>
-							selwyn&ltdot&gtmccracken&ltat&gtgmail&ltdot&gtcom
+	<p>	
+	  <strong>Email</strong><br>
+	  <a href="mailto:info@selwyn-mccracken.com?Subject=Query">info@selwyn-mccracken.com</a>
+	</p>	
+	
+	<p>
+	  <strong>Phone</strong><br>
+	  (+44) 789-686-9183
+	</p>
 
-	  </p>	
-	  
-	  <p>
-	    <strong>Phone</strong><br>
-							(+44) 789-686-9183
-	  </p>
-      					
-					
       </div> <!-- /grid-4 -->
       
     </div> <!-- /row -->

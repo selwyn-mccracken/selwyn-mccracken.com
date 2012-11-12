@@ -9,3 +9,50 @@ line-height: 20px
 .popover-title {
     margin-bottom:0em
 }
+
+/*******************SOCIAL ICONS *****************************************************\
+ul.info,
+ul.social-icons {
+  margin: 0 0 18px 0;
+}
+ul.info li {
+  list-style: none;
+  margin-bottom: 6px;
+}
+ul.info li span {
+  margin-right: 10px;
+  color: #454545;
+}
+ul.social-icons li {
+  list-style: none;
+  margin: 0 5px 6px 0;
+  display: inline-block;
+}
+ul.social-icons li a {
+  font-size: 24px;
+  color: #454545;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+ul.social-icons li:hover a.twitter {
+  color: #33ccff;
+}
+ul.social-icons li:hover a.facebook {
+  color: #3b5998;
+}
+ul.social-icons li:hover a.linkedin {
+  color: #4875b4;
+}
+ul.social-icons li:hover a.google {
+  color: #d6492c;
+}
+ul.social-icons li:hover a.vimeo {
+  color: #86b32d;
+}
+ul.social-icons li:hover a.skype {
+  color: #00aff0;
+}
+/************************************************************************\
