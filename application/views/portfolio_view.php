@@ -54,12 +54,12 @@ font-size: 16px;
 
     <div class="grid-4">
       <div class="work-item">
-	<h3>Hadoop benchmarks on Amazon EC2</h3>
+	<h3>Hadoop EC2 benchmarks</h3>
 	<a class="thumbnail"  href="hadoop_benchmarks">
 	  <img src="assets/img/portfolio/hadoop_thumbnail.png" alt="" />
 	</a> <!-- /img -->
 	<p>
-	  Task completion time benchmarks by cluster size for two common Hadoop tasks.
+	  Task completion time benchmarks by cluster size  on Amazon's EC2 for two common Hadoop tasks.
         </p>
 	<p><a href="hadoop_benchmarks" class="">View Project »</a></p>			
       </div>
