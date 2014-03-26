@@ -69,7 +69,7 @@ $('#nav-home').addClass('active');
 	      I have deployed a wide range of advanced 
 	      machine learning and data mining techniques
 	      on predictive analytics problems.
-            </p>
+        </p>
 	    
 	    
 	  </div> <!-- /masthead-details -->
@@ -92,7 +92,7 @@ $('#nav-home').addClass('active');
     <div class="row">
       <div id="welcome" class="grid-12">
     <style>
-	<h1 style="font-size:16px;">
+	<h1>
 	  Welcome. I am a New Zealand based Data Scientist who specialises in advanced analytics and data visualisation. 
 	  Check out my  <a href="portfolio">portfolio</a> and <a href="contact">get in touch</a>.
 	</h1>
