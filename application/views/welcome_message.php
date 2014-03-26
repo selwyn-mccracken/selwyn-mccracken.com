@@ -12,7 +12,7 @@ $('#nav-home').addClass('active');
       
       <div class="carousel-inner">
 	<div class="active item">
-	  <img src="assets/img/masthead/tower-bridge-night.jpg" alt="" />
+	  <img src="assets/img/masthead/auckland_night_medium.jpg" alt="" />
 	  
 	  <div class="masthead-details">
 	    
@@ -20,7 +20,7 @@ $('#nav-home').addClass('active');
 	    
 	    <p>
 	      I have extensive international analytical experience earned across
-	      the Financial, Government, Pharmaceutical, 
+	      the Media, Financial, Government, Pharmaceutical, 
 	      Automotive & Consumer-goods sectors.
 	    </p>
 	    
@@ -93,7 +93,7 @@ $('#nav-home').addClass('active');
     <div class="row">
       <div id="welcome" class="grid-12">
 	<h1>
-	  Welcome. I am a Data Scientist who specialises in advanced analytics and data visualisation. 
+	  Welcome. I am a New Zealand based Data Scientist who specialises in advanced analytics and data visualisation. 
 	  Check out my  <a href="portfolio">portfolio</a> and <a href="contact">get in touch</a>.
 	</h1>
       </div>
