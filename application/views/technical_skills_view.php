@@ -30,7 +30,7 @@ img{
 
 <div id="page-title">
 		
-      <h1>Overview of Technical Skills <a style="float: right" href="assets/docs/CV_Selwyn_McCracken_2012.pdf"class="btn btn-small btn-warning">Download CV</a></h1>
+      <h1>Overview of Technical Skills <a style="float: right" href="assets/docs/CV_Selwyn_McCracken_2014.pdf"class="btn btn-small btn-warning">Download CV</a></h1>
     </div> <!-- /page-title -->
     
 	<div class="container">
@@ -50,7 +50,7 @@ img{
 		<h4> Expert user of the R programming language:</h4>
 	  
 		<ul class='caretlist'>				
-		  <li>Multivariate regression modelling and prediction (linear & logistic regression).</li>
+		  <li>Multivariate regression modelling and prediction (linear, logistic and GAM regression).</li>
 		  <li>Tree-based segmentation and classification (e.g. random-forests) </li>
 		  <li>Loyalty/Survival/Time-to-Event modelling</li>
 		  <li>Machine Learning classification & pattern recognition (SVMs, kNN, kmeans)</li>
@@ -58,6 +58,7 @@ img{
 		  <li>Monte-Carlo and bootstrap analyses,  kernel density estimation</li>
 		  <li>Advanced interactive graphics – e.g. multi-dimensional plots, map making and plot animation</li>
 		  <li>Time series analysis and forecasting</li>
+		  <li>Model cross-validation, regularization and sensitivity testing</li>
 		</ul>
               </div>
             </div>
@@ -83,7 +84,7 @@ img{
 	  
 	    <ul class='caretlist'>				
 
-              <li>PostgreSQL, MS SQL Server, MySQL, MS-Access, SQLite.</li>
+              <li>PostgreSQL, Amazon Redshift, MS SQL Server, MySQL, MS-Access, SQLite.</li>
               <li>Data ETL (Extraction, Transformation and Loading).</li>
               <li>Data version control management via Subversion builds.</li> 
             </ul>
@@ -107,9 +108,9 @@ img{
 	  
 	    <ul class='caretlist'>				
 	      <li>Hadoop cluster deployment on Amazon's EC2 with Apache Whirr.</li>
-              <li>Mahout machine learning library.</li>
-	      <li>Pig.</li>
-            </ul>
+          <li>Mahout machine learning library.</li>
+	      <li>Pig and Hive.</li>
+        </ul>
           </div>
         </div>
        </div>
