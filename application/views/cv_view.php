@@ -24,7 +24,7 @@ $(function(){
      
     <div id="page-title">
 		
-      <h1>Curriculum vitae <a style="float: right" href="assets/docs/CV_Selwyn_McCracken_2012.pdf"class="btn btn-small btn-warning">Download CV</a></h1>
+      <h1>Curriculum vitae <a style="float: right" href="assets/docs/CV_Selwyn_McCracken_2014.pdf"class="btn btn-small btn-warning">Download CV</a></h1>
 
     </div> <!-- /page-title -->
 
@@ -56,25 +56,45 @@ $(function(){
       <div class="row work-container">
 	<div class="grid-3">
 	  <h2><span class="slash">//</span> Employment</h2>
-	  <img src="assets/img/cv/EY_MLP.jpg" alt="Otago Clocktower">
+	  <img src="assets/img/cv/guardian_logo.gif" alt="">
 	</div> <!-- /grid-3 -->
 	<div class="grid-9">
 	  <div class="work-item">
-	    
+
+	  	<h3>Freelance Data Scientist - October 2012 to Present (Currently based in New Zealand).</h3>
+	    <h4>Main Client: Guardian News and Media (London).</h4>
+	    <p>
+	    	Lead Data Scientist at the Guardian responsible for:
+	    </p>
+	    <ul class='caretlist'>
+	      <li>Behavioural profiling of the 5-million daily website visitors (e.g. user retention, preferred visit time/article type); </li>
+	      <li>Development of analytical tables based on 5-Billion page view records (with a 24 node Redshift cluster);</li>
+	      <li>Article and section similarity clustering;</li>
+	      <li>Monthly website traffic forecasting;</li>
+	      <li>Daily end-of day traffic prediction and identification of early signals that can be acted upon when a poor day is ahead.  </li>
+	    </ul>
+	      
+	    <hr class="row-divider" />
+	 
+	<div class="grid-3">
+	  <h2><span class="slash">//</span> Employment</h2>
+	  <img src="assets/img/cv/EY_MLP.jpg" alt="">
+	</div> <!-- /grid-3 -->   
+	 <div class="grid-9">
 	    <h3>Ernst &amp; Young - Fraud Investigation &amp; Dispute Services (London).</h3>
 	    <h4>Data Analytics Manager, October 2011 - September 2012.</h4>
 
-	    <p>I co-managed a team of 6 - 10 data analysts at the heart of Ernst & Young’s largest global project, 
-	      which aims to improve the public finances of a sub-Saharan African Government.
+	    <p>I co-managed a team of 6 - 10 data analysts for Ernst and Young’s largest global project, 
+	      which sought to improve the public finances of a sub-Saharan African Government.
 	      <br><br>
-	      My principal role was to lead and coordinate the analytical support my team provided to the 
-	      200+ E&amp;Y business analysts and forensic accountants that are assisting across a range of 
+	      I led and coordinated the analytical support my team provided to the 
+	      200+ E&amp;Y accountants involved across a range of 
 	      Government activities such as Budget, Revenue, Expenditure, Debt Management, IT &amp; HR. 
 	      <br><br>
-	      Examples of specific activities that I led or managed included:
+	      Examples of specific activities that I directed included:
 	    </p>
 	    <ul class='caretlist'>
-	      <li >Implementation of an interactive web-based visualisation and financial reporting portal.</li>
+	      <li>Implementation of an interactive web-based visualisation and financial reporting portal.</li>
 	      <li>Diagnosis of system integration issues across the key Government databases.</li>
 	      <li>Design, review and validation of predictive models 
 		(e.g. identifying Ministries that will overspend their budget).</li>
@@ -88,7 +108,7 @@ $(function(){
 	    
 	    <h3>Ernst &amp; Young - Fraud Investigation &amp; Dispute Services (London).</h3>
 	    <h4>Data Analytics Executive, March 2010 – September 2011 </h4>
-	    <p>Completed several pieces of work on E&Y’s largest project such as: 
+	    <p>Completed several pieces of work on E&amp;Y’s largest project such as: 
 	      <ul class='caretlist'>
 		<li>Tracing and visualisation of $8.5 Billion of tax revenue through more than 200 taxation accounts.</li>
 		<li>Confirmation of $5 Billion of suspected outstanding payments to Government vendors.</li>
@@ -153,7 +173,7 @@ $(function(){
 	    
 	    <hr class="row-divider" />
 	    
-	    <h3>Dept. Preventive & Social Medicine, University of Otago (New Zealand)</h3>
+	    <h3>Dept. Preventive and Social Medicine, University of Otago (New Zealand)</h3>
 	    <h4> Health Research Council Training Fellow, April 2001-December 2005: </h4>
 	    <p>
 	      Undertook PhD Research, epidemiology tutoring and supervisor research assistance, 
@@ -172,7 +192,7 @@ $(function(){
 	    
 	    <hr class="row-divider" />
 	    
-	    <h3>Dept. Preventive & Social Medicine, University of Otago (New Zealand)</h3>
+	    <h3>Dept. Preventive and Social Medicine, University of Otago (New Zealand)</h3>
 	    <h4>Junior Research Fellow, 1999-2001</h4>
 	    <ul class='caretlist'>
 	      <li>

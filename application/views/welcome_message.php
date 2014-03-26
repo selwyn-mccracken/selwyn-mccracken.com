@@ -11,9 +11,8 @@ $('#nav-home').addClass('active');
     <div id="masthead-carousel" class="carousel slide">
       
       <div class="carousel-inner">
-	<div class="active item">
-	  <img src="assets/img/masthead/auckland_night_large.jpg" alt="" />
-	  
+		<div class="active item">
+	  			<img src="assets/img/masthead/auckland_night_large.jpg" height="375" width="615" alt="" />
 	  <div class="masthead-details">
 	    
 	    <h2>Broad Analytics Expertise</h2>
@@ -92,10 +91,12 @@ $('#nav-home').addClass('active');
   <div class="container">
     <div class="row">
       <div id="welcome" class="grid-12">
-	<h1>
+    <style>
+	<h1 style="font-size:16px;">
 	  Welcome. I am a New Zealand based Data Scientist who specialises in advanced analytics and data visualisation. 
 	  Check out my  <a href="portfolio">portfolio</a> and <a href="contact">get in touch</a>.
 	</h1>
+	</style>
       </div>
     </div> <!-- /row -->
   </div> <!-- /content -->
