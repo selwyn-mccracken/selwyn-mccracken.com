@@ -12,7 +12,7 @@ $('#nav-home').addClass('active');
       
       <div class="carousel-inner">
 	<div class="active item">
-	  <img src="assets/img/masthead/auckland_night_medium.jpg" alt="" />
+	  <img src="assets/img/masthead/auckland_night_large.jpg" alt="" />
 	  
 	  <div class="masthead-details">
 	    
