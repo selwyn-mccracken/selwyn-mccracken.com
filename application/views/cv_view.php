@@ -76,9 +76,9 @@ $(function(){
 	    </ul>
 	      
 	    <hr class="row-divider" />
+	</div>	
 	</div> 
 	<div class="grid-3">
-	  <h2><span class="slash">//</span> Employment</h2>
 	  <img src="assets/img/cv/EY_MLP.jpg" alt="">
 	</div> <!-- /grid-3 -->   
 	 <div class="grid-9">
