@@ -91,12 +91,10 @@ $('#nav-home').addClass('active');
   <div class="container">
     <div class="row">
       <div id="welcome" class="grid-12">
-    <style>
-	<h1>
+	<h1 style="font-size:16px;">
 	  Welcome. I am a New Zealand based Data Scientist who specialises in advanced analytics and data visualisation. 
 	  Check out my  <a href="portfolio">portfolio</a> and <a href="contact">get in touch</a>.
 	</h1>
-	</style>
       </div>
     </div> <!-- /row -->
   </div> <!-- /content -->
