@@ -30,57 +30,68 @@ $(function(){
 
     <div class="container">
 					
-      <div class="row work-container">
+      	<div class="row work-container">
 				
-	<div class="grid-3">
-	  <h2><span class="slash">//</span> Education</h2>
-	  <a href = "http://www.otago.ac.nz">
-	    <img src="assets/img/cv/otago_clocktower.jpg" alt="Otago Clocktower">
-	  </a>
-	</div> <!-- /grid-3 -->
+			<div class="grid-3">
+	  			<h2><span class="slash">//</span> Education</h2>
+	  			<a href = "http://www.otago.ac.nz">
+	    		<img src="assets/img/cv/otago_clocktower.jpg" alt="Otago Clocktower">
+	  			</a>
+			</div> <!-- /grid-3 -->
 	
-	<div class="grid-9">
-	  <div class="work-item">
-	    <br><br>
-	    <ul class='caretlist'>				
-	      <li><b>Ph.D.</b> (Occupational Epidemiology). 
-		University of Otago (New Zealand), 2007.</li>
-	      <li><b>MSc</b> (Psychology). University of Otago, 2001.</li>
-	      <li><b>BSc</b> (Psychology). University of Otago, 1999.</li>
-	    </ul>
+			<div class="grid-9">
+	  			<div class="work-item">
+	    		<br><br>
+			    <ul class='caretlist'>				
+			      <li><b>Ph.D.</b> (Occupational Epidemiology). 
+					University of Otago (New Zealand), 2007.</li>
+			      <li><b>MSc</b> (Psychology). University of Otago, 2001.</li>
+			      <li><b>BSc</b> (Psychology). University of Otago, 1999.</li>
+			    </ul>
 	    
-	  </div>
-	</div> <!-- /grid-9 -->
-      </div>												
-      <hr class="row-divider" />
-      <div class="row work-container">
-	<div class="grid-3">
-	  <h2><span class="slash">//</span> Employment</h2>
-	  <img src="assets/img/cv/guardian_logo.gif" alt="">
-	</div> <!-- /grid-3 -->
-	<div class="grid-9">
-	  <div class="work-item">
+	  			</div>
+			</div> <!-- /grid-9 -->
+      </div>	
 
-	  	<h3>Freelance Data Scientist - October 2012 to Present.</h3>
-	  	<p>(Currently based in New Zealand)</p>
-	    <h4>Main Client: Guardian News and Media (London).</h4>
-	    <p>
-	    	Lead Data Scientist at the Guardian responsible for:
-	    </p>
-	    <ul class='caretlist'>
-	      <li>Behavioural profiling of the 5-million daily website visitors (e.g. user retention, preferred visit time/article type); </li>
-	      <li>Development of analytical tables based on 5-Billion page view records (with a 24 node Redshift cluster);</li>
-	      <li>Article and section similarity clustering;</li>
-	      <li>Monthly website traffic forecasting;</li>
-	      <li>Daily end-of day traffic prediction and identification of early signals that can be acted upon when a poor day is ahead.  </li>
-	    </ul>
+      <hr class="row-divider" />
+      
+      <div class="row work-container">
+	
+			<div class="grid-3">
+	  			<h2><span class="slash">//</span> Employment</h2>
+	 			 <img src="assets/img/cv/guardian_logo.gif" alt="">
+			</div> <!-- /grid-3 -->
+	
+			<div class="grid-9">
+	  			<div class="work-item">
+
+			  	<h3>Freelance Data Scientist - October 2012 to Present.</h3>
+			  	<p>(Currently based in New Zealand)</p>
+			    <h4>Main Client: Guardian News and Media (London).</h4>
+			    <p>
+			    	Lead Data Scientist at the Guardian responsible for:
+			    </p>
+			    <ul class='caretlist'>
+			      <li>Behavioural profiling of the 5-million daily website visitors (e.g. user retention, preferred visit time/article type); </li>
+			      <li>Development of analytical tables based on 5-Billion page view records (with a 24 node Redshift cluster);</li>
+			      <li>Article and section similarity clustering;</li>
+			      <li>Monthly website traffic forecasting;</li>
+			      <li>Daily end-of day traffic prediction and identification of early signals that can be acted upon when a poor day is ahead.  </li>
+			    </ul>
+
 	      
-	    <hr class="row-divider" />
-	</div>	
-	</div> 
-	<div class="grid-3">
-	  <img src="assets/img/cv/EY_MLP.jpg" alt="">
-	</div> <!-- /grid-3 -->   
+	    		<hr class="row-divider" />
+				</div>	
+			</div>
+
+	</div>
+
+	<div class="row work-container">
+
+		<div class="grid-3">
+		  <img src="assets/img/cv/EY_MLP.jpg" alt="">
+		</div> <!-- /grid-3 -->   
+	
 	 <div class="grid-9">
 	    <h3>Ernst &amp; Young - Fraud Investigation &amp; Dispute Services (London).</h3>
 	    <h4>Data Analytics Manager, October 2011 - September 2012.</h4>
