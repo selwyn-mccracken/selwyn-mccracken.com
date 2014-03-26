@@ -61,7 +61,8 @@ $(function(){
 	<div class="grid-9">
 	  <div class="work-item">
 
-	  	<h3>Freelance Data Scientist - October 2012 to Present (Currently based in New Zealand).</h3>
+	  	<h3>Freelance Data Scientist - October 2012 to Present.</h3>
+	  	<p>(Currently based in New Zealand)</p>
 	    <h4>Main Client: Guardian News and Media (London).</h4>
 	    <p>
 	    	Lead Data Scientist at the Guardian responsible for:
@@ -75,7 +76,7 @@ $(function(){
 	    </ul>
 	      
 	    <hr class="row-divider" />
-	 
+	</div> 
 	<div class="grid-3">
 	  <h2><span class="slash">//</span> Employment</h2>
 	  <img src="assets/img/cv/EY_MLP.jpg" alt="">
