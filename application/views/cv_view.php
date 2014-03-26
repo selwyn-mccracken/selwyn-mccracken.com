@@ -59,12 +59,12 @@ $(function(){
 	
 			<div class="grid-3">
 	  			<h2><span class="slash">//</span> Employment</h2>
-	 			 <img src="assets/img/cv/guardian_logo.gif" alt="">
+	 			 <img src="assets/img/cv/guardian_logo.gif" height=20 alt="">
 			</div> <!-- /grid-3 -->
 	
 			<div class="grid-9">
 	  			<div class="work-item">
-
+	  			<br><br>	
 			  	<h3>Freelance Data Scientist - October 2012 to Present.</h3>
 			  	<p>(Currently based in New Zealand)</p>
 			    <h4>Main Client: Guardian News and Media (London).</h4>
