@@ -28,7 +28,7 @@ $('#nav-contact').addClass('active');
 	
 	<p>
 	  <strong>Phone</strong><br>
-	  (+44) 789-686-9183
+	  (+64) 21-155-1621
 	</p>
 
       </div> <!-- /grid-4 -->
